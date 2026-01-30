@@ -10,3 +10,15 @@
       display: block;
    }
 }
+
+#hero div {
+    padding: 40px;
+}
+
+#contents div {
+    padding: 50px;
+}
+
+#footer div {
+    padding: 60px;
+}
