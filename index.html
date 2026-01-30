@@ -3,9 +3,49 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link href="css/grid.css" rel="stylesheet" type="text/css">
+    <link href="css/main.css" rel="stylesheet" type="text/css">
+    <title>Responsive Scaffolding</title>
 </head>
 <body>
-    
+    <h1 class="hidden">Responsive Scaffolding</h1>
+        <header class="grid-con center-grid-con">
+            <div class="box col-start-2 col-end-4 m-col-start-1 m-col-end-3 l-col-start-1 l-col-end-3">Logo</div>
+            <nav class="box col-span-full m-col-start-4 m-col-end-13 l-col-end-4 l-col-end-13">Nav</nav>
+        </header>
+
+        <main>
+            <section id="hero" class="grid-con center-grid-con">
+                <div class="box col-start-1 col-end-4 m-col-start-1 m-col-end-7">Hero Image</div>
+
+                <div class="box span-1 m-col-start-7 m-col-end-13">Hero Text</div>
+
+                <div class="box col-span-full m-col-start-1 m-col-end-7">Product 1</div>
+
+                <div class="box col-span-full m-col-start-7 m-col-end-13">Product 2</div>
+
+                <div class="box col-start-1 col-end-3 m-col-start-1 m-col-end-5 l-col-start-1 l-col-end-5">Service 1</div>
+
+                <div class="box col-start-3 col-end-5 m-col-start-5 m-col-end-9 l-col-start-5 l-col-end-9">Service 2</div>
+
+                <div class="box col-start-1 col-end-3 m-col-start-9 m-col-end-13 l-col-start-9 l-col-end-13">Service 3</div>
+
+                <div class="box col-start-3 col-end-5 m-col-start-1 m-col-end-5 l-col-start-1 l-col-end-5">Service 4</div>
+
+                <div class="box col-start-1 col-end-3 m-col-start-5 m-col-end-9 l-col-start-5 l-col-end-9">Service 5</div>
+
+                <div class="box col-start-3 col-end-5 m-col-start-9 m-col-end-13 l-col-start-9 l-col-end-13">Service 6</div>
+
+                <div id="hidden-box" class="box hidden col-span-full">Hidden Box</div>
+
+                <div class="box col-span-full">Promo Video</div>
+
+            </section>
+        </main>
+
+        <footer class="grid-con center-grid-con">
+            <div class="box col-span-full">Footer</div>
+        </footer>
+        <script src="js/main.js"></script>
 </body>
 </html>
